@@ -14,6 +14,9 @@ O retorno da aplicação node.js para o nginx deverá ser:
 - Lista de nomes cadastrada no banco de dados.
 # Como inicializar e testar os serviços ?
   dentro do diretório com o arquivo docker-compose.yaml utilize o comando:
+    docker-compose up
+
+  pode ser adicionado o arqumento "-d" para que sejam levantados os serviços em background:
     docker-compose up -d
 
   Ao acessar localmente a url
